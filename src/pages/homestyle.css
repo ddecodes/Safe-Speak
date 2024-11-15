@@ -1,0 +1,10 @@
+.custom-bg {
+    width: 100%;
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
+.section {
+    width: 100%;
+    /* Other styles for sections */
+}

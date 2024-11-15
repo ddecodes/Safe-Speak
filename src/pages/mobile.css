@@ -1,0 +1,10 @@
+.mobile_format {
+    padding: 20px;
+    max-width: 500px;
+}
+
+@media(max-width: 800px) {
+    .mobile_format {
+        padding: 10px;
+    }
+}

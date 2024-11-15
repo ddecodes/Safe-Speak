@@ -1,0 +1,60 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #01CDA9;
+$secondary: #353535;
+$outline: #CCCCCC;
+
+$custom-color: #F0FFFF; // Define your custom color here
+$custom-font: 'Istok Web', sans-serif;
+$custom-red-font: #E54461;
+$custom-blue-font: #3A88D0;
+$custom-purple-bg: #332D4F;
+$custom-height: 400px;
+$custom-font-size: 20px;
+
+.custom-btn {
+  background-color: $custom-color;
+  border-color: $custom-color; // Optional: Set border color same as background color for a solid color button
+}
+
+.custom-btn:hover {
+  background-color: darken($custom-color, 10%); // Darken the color slightly on hover
+}
+
+.custom-bg {
+  background-color: $custom-color;
+}
+
+.custom-font {
+  font-family: $custom-font;
+}
+
+.custom-red-font {
+  color: $custom-red-font;
+}
+
+.custom-blue-font {
+  color: $custom-blue-font;
+}
+
+.custom-height {
+  height: $custom-height;
+}
+
+.custom-purple-bg {
+  background-color: $custom-purple-bg;
+}
+
+.custom-font-size {
+  font-size: $custom-font-size;
+
+}
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
