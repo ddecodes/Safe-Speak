@@ -81,7 +81,7 @@ export default function PostModal({ closeModal }) {
                 username
             };
 
-            const response = await fetch('https://therapytalk.onrender.com/blog', {
+            const response = await fetch('https://safespeak.onrender.com/blog', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
